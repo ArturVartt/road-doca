@@ -1,14 +1,12 @@
 @import "tailwindcss";
 
-* {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-}
-
 @theme {
   --color-blue-gray: #e5ebf1;
   --color-space-blue: #afcbeb;
+  --color-space-blue-light: #c8ddf5;
   --color-lavender-gray: #d4cfe6;
+  --font-display: SFMono-Regular, Consolas, "Fira Code", "Source Code Pro",
+    Menlo, monospace;
 }
 
 ::-webkit-scrollbar {
